@@ -15,6 +15,8 @@ gin+grpc+gorm+etcd+mysql 的备忘录功能
 
 # 准备工作
 ## 下载gRPC
+
+```
 Gin+gRPC make service of Realization Memo
 Knowing what is RPC call
 err = client.Call("Arith.Multiply", args, &reply)
@@ -23,12 +25,15 @@ Get golang RPC package and install
 go get google.golang.org/grpc
 go get google.golang.org/protobuf
 https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.5
+```
 
 ## 创建MySQL数据库
 ![创建MySQL数据库](doc/创建MySQL数据库.png)
 
+```
 create database grpc_todo_list;
 show databases;
+```
 
 ![创建MySQL数据库2](doc/创建MySQL数据库2.png)
 
