@@ -1,0 +1,24 @@
+server:
+  port: :4000
+  version: 1.0
+  jwtSecret: 38324
+
+datasource:
+  driverName: mysql
+  host: 127.0.0.1
+  port: 3306
+  database: grpc_todo_list
+  username: root
+  password: 400525
+  charset: utf8mb4
+
+redis:
+  address: 127.0.0.1:6379
+  password:
+
+etcd:
+  address: 127.0.0.1:2379
+
+domain:
+  user: user
+  task: task

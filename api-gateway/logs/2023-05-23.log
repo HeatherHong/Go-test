@@ -1,0 +1,5 @@
+time="2023-05-23 14:46:09" level=info msg="userService--rpc error: code = Unknown desc = Error 1062 (23000): Duplicate entry 'FanOne' for key 'user.user_name'"
+time="2023-05-23 14:46:36" level=info msg="userService--rpc error: code = Unknown desc = Error 1062 (23000): Duplicate entry 'FanOne' for key 'user.user_name'"
+time="2023-05-23 14:46:50" level=info msg="userService--rpc error: code = Unknown desc = Error 1062 (23000): Duplicate entry 'FanOne' for key 'user.user_name'"
+time="2023-05-23 15:01:03" level=info msg="userService--rpc error: code = Unknown desc = Error 1062 (23000): Duplicate entry 'Heather' for key 'user.user_name'"
+time="2023-05-23 15:01:42" level=info msg="userService--rpc error: code = Unknown desc = Error 1062 (23000): Duplicate entry 'Heather' for key 'user.user_name'"
