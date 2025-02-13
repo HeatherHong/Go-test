@@ -26,8 +26,10 @@ https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.5
 
 ## 创建MySQL数据库
 ![创建MySQL数据库](doc/创建MySQL数据库.png)
+
 create database grpc_todo_list;
 show databases;
+
 ![创建MySQL数据库2](doc/创建MySQL数据库2.png)
 
 # 项目结构
