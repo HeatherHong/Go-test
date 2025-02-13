@@ -13,6 +13,23 @@ gin+grpc+gorm+etcd+mysql 的备忘录功能
 - viper
 - protobuf
 
+# 准备工作
+## 下载gRPC
+Gin+gRPC make service of Realization Memo
+Knowing what is RPC call
+err = client.Call("Arith.Multiply", args, &reply)
+
+Get golang RPC package and install
+go get google.golang.org/grpc
+go get google.golang.org/protobuf
+https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.5
+
+## 创建MySQL数据库
+![创建MySQL数据库](doc/创建MySQL数据库.png)
+create database grpc_todo_list;
+show databases;
+![创建MySQL数据库2](doc/创建MySQL数据库2.png)
+
 # 项目结构
 
 ## 1. api-gateway 网关部分
@@ -99,21 +116,7 @@ redis:
   password:
 ```
 
-# 导入接口文档
-
-打开postman，点击导入
-
-![postman导入](doc/1.点击import导入.png)
-
-选择导入文件
-![选择导入接口文件](doc/2.选择文件.png)
-
-![导入](doc/3.导入.png)
-
-效果
-
-![postman](doc/4.效果.png)
-
+# 
 
 # 项目启动
 保证etcd处于运行状态。
