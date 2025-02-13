@@ -134,7 +134,8 @@ redis:
   password:
 ```
 
-# 
+# ETCD Service
+![ETCD Service](doc/ETCD Service.png)
 
 # 项目启动
 保证etcd处于运行状态。
