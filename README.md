@@ -80,12 +80,23 @@ user/
     ├── res               // 统一response接口返回
     └── util              // 各种工具、JWT、Logger等等..
 ```
-
-# 项目完善
-现在已经新建了t0分支，欢迎大家将自己的想法pr到t0分支，测试无误之后，我们将合并到main分支。
-
-- 添加熔断机制
-- ....其他想法
+```
+task/
+├── cmd                   // Launch Portal
+├── config                // Configuration file
+├── discovery             // etcd service registration, keep-alive, etc.
+├── internal              // Business logic (not exposed to the public)
+│   ├── handler           // View Layer
+│   ├── cache             // Cache Module
+│   ├── repository        // Durable layer
+│   └── service           // Service layer
+│       └──pb             // Placing the generated pb file
+├── logs                  // Placement of print log module
+├── pkg                   // Various packages
+│   ├── e                 // Unified Error Status Code
+│   ├── res               // Unified response interface returns
+│   └── util              // Various tools, JWT, Logger, etc...
+```
 
 # 项目文件配置
 
